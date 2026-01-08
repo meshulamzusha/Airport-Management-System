@@ -4,9 +4,7 @@ export class Airport {
     constructor() {
         this.flights = [];
         this.createFlights();
-        console.log(this.flights);
-        
-        // this.fillFlightsTickets()
+        this.fillFlightsTickets()
     }
 
     createFlights() {
